@@ -7,7 +7,33 @@
   <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
-  
+  <div class="container">
+    <header>
+        <div class="logo">Vitrine XLOW</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="products-header">
+          <div class="product-counter">
+            Exibindo <span id="product-count">0</span> produtos
+          </div>
+          <button id="layout-toggle" class="layout-toggle">
+            <div class="grid-icon">
+              <div class="grid-square"></div>
+              <div class="grid-square"></div>
+            </div>
+          </button>
+      </div>
+      <div id="products-grid" class="products-grid">
+      </div>
+    </main>
+  </div>
   <script src="./src/main.js"></script>
 </body>
 </html>
